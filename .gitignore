@@ -1,0 +1,6 @@
+﻿__pycache__/
+*.pyc
+.env
+.vscode/
+Bar code -URL Site.xlsx
+scan_history.xlsx
