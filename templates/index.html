@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -10,7 +10,7 @@
     content="width=device-width, initial-scale=1, viewport-fit=cover"
 >
 
-<title>TUTTO SPORT — Barcode Scanner</title>
+<title>TUTTO SPORT ظ¤ Barcode Scanner</title>
 
 
 <!-- ZXING -->
@@ -1058,7 +1058,7 @@ footer{
                 </svg>
 
                 <span>
-                    Caméra en attente
+                    Cam├رra en attente
                 </span>
 
             </div>
@@ -1154,7 +1154,7 @@ footer{
 
 
     <footer>
-        TUTTO SPORT · Product Scanner
+        TUTTO SPORT ┬╖ Product Scanner
     </footer>
 
 
@@ -1179,7 +1179,7 @@ footer{
 /*
    On autorise plusieurs formats de codes-barres 1D.
 
-   Le code de ta photo est un code-barres numérique
+   Le code de ta photo est un code-barres num├رrique
    classique, donc on teste notamment :
 
    - UPC_A
@@ -1226,8 +1226,8 @@ hints.set(
 
 
 /*
-   TRY_HARDER est très important pour les codes
-   difficiles à lire avec la caméra.
+   TRY_HARDER est tr├ذs important pour les codes
+   difficiles ├ب lire avec la cam├رra.
 */
 
 hints.set(
@@ -1342,15 +1342,15 @@ function renderConnecting(code){
 
         <div class="message-box">
 
-            <span class="icon">🔍</span>
+            <span class="icon">≡ا¤</span>
 
             <div>
 
                 <div class="msg-title">
-                    Recherche du produit…
+                    Recherche du produitظخ
                 </div>
 
-                Code détecté :
+                Code d├رtect├ر :
                 <strong>${code}</strong>
 
             </div>
@@ -1371,7 +1371,7 @@ function renderNotFound(code){
 
         <div class="message-box">
 
-            <span class="icon">⚠️</span>
+            <span class="icon">ظأبي╕</span>
 
             <div>
 
@@ -1379,7 +1379,7 @@ function renderNotFound(code){
                     Barcode not found
                 </div>
 
-                Aucun produit ne correspond à :
+                Aucun produit ne correspond ├ب :
 
                 <strong>${code}</strong>
 
@@ -1412,7 +1412,7 @@ function renderServerError(){
 
         <div class="message-box error">
 
-            <span class="icon">⛔</span>
+            <span class="icon">ظؤ¤</span>
 
             <div>
 
@@ -1422,7 +1422,7 @@ function renderServerError(){
 
                 Impossible de contacter le serveur.
 
-                Vérifiez votre connexion et réessayez.
+                V├رrifiez votre connexion et r├رessayez.
 
             </div>
 
@@ -1502,7 +1502,7 @@ function renderProduct(data, code){
             <div class="card-top">
 
                 <span class="found-tag">
-                    ● Produit trouvé
+                    ظù Produit trouv├ر
                 </span>
 
                 <h2>
@@ -1535,7 +1535,7 @@ function renderProduct(data, code){
                     </span>
 
                     <span class="value">
-                        ${data.article || "—"}
+                        ${data.article || "ظ¤"}
                     </span>
 
                 </div>
@@ -1548,7 +1548,7 @@ function renderProduct(data, code){
                     </span>
 
                     <span class="value">
-                        ${data.category || "—"}
+                        ${data.category || "ظ¤"}
                     </span>
 
                 </div>
@@ -1709,18 +1709,18 @@ function showCameraError(error){
         <div class="message-box error">
 
             <span class="icon">
-                📷
+                ≡اô╖
             </span>
 
             <div>
 
                 <div class="msg-title">
-                    Impossible d'utiliser la caméra
+                    Impossible d'utiliser la cam├رra
                 </div>
 
                 <p>
-                    Vérifiez que le navigateur possède
-                    l'autorisation d'utiliser la caméra.
+                    V├رrifiez que le navigateur poss├ذde
+                    l'autorisation d'utiliser la cam├رra.
                 </p>
 
             </div>
@@ -1774,7 +1774,7 @@ async function startScan(){
 
 
         scanBtn.textContent =
-            "Scanning…";
+            "Scanningظخ";
 
 
         setStatus(
